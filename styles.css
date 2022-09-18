@@ -149,11 +149,12 @@ p::before {
 button {
 	display: block;
 	margin: 40px auto;
-	width: 40%;
+	width: 20%;
 	padding: 15px;
 	font-size: 23px;
-	background: #d0d0d5;
+	background: red;
 	border: 3px solid #3b3b4f;
+	border-radius: 6px;
 }
 
 footer {
