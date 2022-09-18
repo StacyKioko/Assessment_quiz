@@ -149,13 +149,20 @@ p::before {
 button {
 	display: block;
 	margin: 40px auto;
-	width: 20%;
+	width: 60px;
 	padding: 15px;
 	font-size: 23px;
-	background: red;
-	border: 3px solid #3b3b4f;
+	background: green;
+	border: 3px solid green;
 	border-radius: 6px;
+	font-weight:800;
 }
+ button:hover {
+	 background-color: red;
+	 border: red;
+	 color: white;
+	 font-weight: 800;
+
 
 footer {
 	background-color: #2a2a40;
